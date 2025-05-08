@@ -1,0 +1,20 @@
+[project]
+title = "Data Analysis Dashboard"
+version = "0.1.0"
+port = 8501
+slug = "assessment-731228"
+entrypoint = "hello.py"
+
+[branding]
+name = "Data Analysis Dashboard"
+logo = "images/rocket.png"
+favicon = "images/rocket.png"
+primaryColor = "#10B981"
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
